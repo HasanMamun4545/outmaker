@@ -809,6 +809,12 @@ color: #002B5B;
   .vedio-img{
     width: 300px;
   }
+  .Envoirment{
+    flex-direction: column;
+  }
+  .nature img{
+width: 350px;
+  }
 }
 @media screen and (max-width:700px){
   .wrapper{
@@ -903,13 +909,13 @@ color: #666666;
 }
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  
   
   left: 0;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+ 
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
