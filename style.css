@@ -815,6 +815,23 @@ color: #002B5B;
   .nature img{
 width: 350px;
   }
+  .menu-bar{
+    display: none;
+   
+  }
+  .blue-bar{
+    display: none;
+  }
+  .ellipse{
+    display: block;
+  }
+  .line-div{
+    display: none;
+  }
+  .end{
+    height: 500px;
+  }
+  
 }
 @media screen and (max-width:700px){
   .wrapper{
