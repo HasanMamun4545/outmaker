@@ -460,8 +460,8 @@ background: #FFFFFF;
   }
   .ellipse-parent {
     position: absolute;
-    
-    left: calc(46% - 60px);
+    top: 620px;
+    left: 500px;
     width: 120.02px;
     height: 120.02px;
     background-color: #ffffff;
@@ -502,7 +502,7 @@ color: #002B5B;
 }
 .gallery{
   box-sizing: border-box;
-position: absolute;
+
 width: 231.34px;
 height: 195px;
 left: 249.12px;
@@ -782,6 +782,7 @@ color: #002B5B;
 }
 .div20 :hover{
   background-color: #F5F6FF;
+  
 }
 @media screen and (max-width: 768px) {
   .media {
@@ -801,6 +802,12 @@ color: #002B5B;
   .efforts{
     
     margin-top: 70px;
+  }
+  .round{
+  display: none;
+  }
+  .vedio-img{
+    width: 300px;
   }
 }
 @media screen and (max-width:700px){
@@ -828,4 +835,55 @@ color: #002B5B;
  
   
  
+}
+.drop{
+  background: #FFFFFF;
+box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.25);
+width: 100%;
+height: 565px;
+}
+.prdct-heading{
+  padding: 20px;
+  text-align: start;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 38px;
+
+
+text-transform: uppercase;
+
+
+color: #002B5B;font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 38px;
+
+
+text-transform: uppercase;
+
+
+
+color: #002B5B;
+}
+.drp-img{
+  width: 198.9px;
+height: 164px;
+
+}
+.card :hover{
+background-color: #002B5B;
+
+}
+.sofa-set{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+text-align: center;
+color: #666666;
+
 }
