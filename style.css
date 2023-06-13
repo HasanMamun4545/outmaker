@@ -784,7 +784,7 @@ color: #002B5B;
   background-color: #F5F6FF;
   
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .media {
    flex-wrap: wrap;
   }
@@ -830,6 +830,9 @@ width: 350px;
   }
   .end{
     height: 500px;
+  }
+  .responsive-nav{
+    
   }
   
 }
@@ -935,4 +938,7 @@ color: #666666;
  
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.responsive-nav{
+  display: none;
 }
