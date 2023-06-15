@@ -1,0 +1,17 @@
+.banner{
+    background: url(images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+.color{
+    color: #002B5B;
+}
+.border-color{
+    border-color:#002B5B;
+}
+.bg-color{
+    background-color: #F0FBFF;
+}

@@ -938,3 +938,113 @@ color: #666666;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+
+.kama{
+  width: 50%;
+height: 600px;
+  
+
+}
+.collection{
+  font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+margin-top: 30px;
+
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
+}
+.name-item{
+  font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 80px;
+
+
+
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #000000;
+
+}
+.item-details{
+  font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+
+
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.discoverbutton{
+  width: 140px;
+    height: 49px;
+    border: 3px solid #002B5B;
+    border-radius: 24.5px;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+.discover{
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42%;
+    width: 74.5%;
+    color: #002B5B;
+}
+.outmaker-instagram-network5 {
+  width: 47%;
+height: 5%;
+left: 100px;
+top: 3423.08px;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 60px;
+
+
+display: flex;
+align-items: center;
+letter-spacing: 0.176277px;
+text-transform: capitalize;
+
+
+color: #002B5B;
+
+}
+ .instagramnetwork11 {
+ 
+  width: 90%;
+height: 8%;
+
+
+border-bottom: 4px solid #002B5B;
+border-radius: 0px;
+}
+.photo-frame {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.instaasset15 {
+  
+  width: 280px;
+  height: 300px;
+}
