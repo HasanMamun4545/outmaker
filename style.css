@@ -1365,10 +1365,27 @@ body {
   height: 164px;
 
 }
-
-.card :hover {
-  background-color: #002B5B;
-
+.cltn-card{
+  width: 309px;
+height: 339px;
+}
+.clctn-heading{
+  font-family: 'Garamond Premier Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+text-transform: capitalize;
+color: #002B5B;
+}
+.clctn-details{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+text-transform: capitalize;
+color: #002B5B;
 }
 
 .sofa-set {
