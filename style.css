@@ -1387,7 +1387,40 @@ line-height: 24px;
 text-transform: capitalize;
 color: #002B5B;
 }
+.learn-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 38px;
+  
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  
 
+  
+  color: #002B5B;
+}
+.learn-list{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 17px 21px;
+gap: 10px;
+
+position: absolute;
+width: 116px;
+height: 45px;
+left: 0px;
+top: 44px;
+
+border: 1px solid rgba(0, 0, 0, 0.08);
+border-radius: 100px;
+}
 .sofa-set {
   font-family: 'Poppins';
   font-style: normal;
