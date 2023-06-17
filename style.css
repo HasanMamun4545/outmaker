@@ -935,6 +935,7 @@ body {
   top: 107%;
   left: 0;
   width: 100%;
+  
   background-color: #fff;
   transform: scaleY(0);
   transform-origin: top;
@@ -1393,33 +1394,31 @@ color: #002B5B;
   font-weight: 500;
   font-size: 20px;
   line-height: 38px;
-  
   text-decoration-line: underline;
   text-transform: uppercase;
-  
-
-  
   color: #002B5B;
 }
 .learn-list{
-  box-sizing: border-box;
+ 
 
-/* Auto layout */
 
-display: flex;
-flex-direction: row;
-align-items: flex-start;
+
+
 padding: 17px 21px;
-gap: 10px;
-
-position: absolute;
-width: 116px;
+width: 182px;
 height: 45px;
-left: 0px;
-top: 44px;
+;
 
 border: 1px solid rgba(0, 0, 0, 0.08);
 border-radius: 100px;
+}
+.crd-hvr :hover{
+background-color: #002B5B;
+-webkit-text-fill-color: #FFFFFF;
+}
+.list-content :hover{
+background-color: #002B5B;
+-webkit-text-fill-color: #FFFFFF;
 }
 .sofa-set {
   font-family: 'Poppins';
