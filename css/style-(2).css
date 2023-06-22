@@ -1,0 +1,16 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.color{
+    color: #002B5B;
+}
+.border-color{
+    border-color:#002B5B;
+}
+.video{
+    width: 220vh;
+    height: 110vh;
+}
+.bg-color{
+    background-color: #F0FBFF;
+}

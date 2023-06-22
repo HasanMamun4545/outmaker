@@ -703,14 +703,19 @@ body {
 
 
 }
+.prdct:hover{
+  background-color: #002B5B;
+-webkit-text-fill-color: #FFFFFF;
+text-emphasis-color: #ffffff;
+}
+
 
 .radio-btn2 {
 
 
-  align-items: flex-start;
+  text-align: center;
   padding: 26px 60px;
   gap: 10px;
-
   width: 225px;
   height: 65px;
 
@@ -767,7 +772,57 @@ body {
   border-radius: 20px;
   background-size: 1250px 626px;
 }
+.dimension-btn{
+  padding: 13px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  border-radius: 1000px;
+border: 1px solid #002b5b;
+background-color: #FFFFFF;
+font-size: 18px;
+font-family: Poppins;
+line-height: 30px;
+-webkit-text-fill-color: #002B5B;
 
+}
+.hvr :hover {
+background-color: #002B5B;
+-webkit-text-fill-color: #FFFFFF;
+
+}
+.lrg-section{
+  width: 398px;
+height: 103px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #002B5B;
+
+box-sizing: border-box;
+padding: 10px;
+display: block;
+
+}
+.pngwing-25-parent{
+
+
+  width: 744px;
+    height: 313px;
+    text-align: center;
+    
+}
+.group-child81{
+  left: 25.11px;
+}
+
+.lrg-text{
+  color: #002B5B;
+  font-size: 20px;
+  font-family: Poppins;
+  line-height: 34px;
+  background-color: #FFFFFF;
+  flex-shrink: 0;
+}
 .enjoy {
   font-family: 'Poppins';
   font-style: normal;
@@ -782,6 +837,18 @@ body {
   color: #002B5B;
 
 }
+
+.ellipse-parent12 , .group-child83{
+  width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.07);
+    border: 1px solid darkslateblue;
+    box-sizing: border-box;
+    
+}
+
 
 .rectangle-04 {
   width: 206px;
@@ -1004,7 +1071,8 @@ body {
     display: none;
   }
   .search_box {
-    width: 41px;
+
+    width: 100px;
     height: 41px;
     background-position: 4px 5px;
   }
@@ -1341,11 +1409,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 38px;
-
-
   text-transform: uppercase;
-
-
   color: #002B5B;
   font-family: 'Poppins';
   font-style: normal;
