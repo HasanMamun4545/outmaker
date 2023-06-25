@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.color{
+    color: #002B5B;
+}
+.border-color{
+    border-color:#002B5B;
+}
+.video{
+    width: 220vh;
+    height: 110vh;
+}
+.bg-color{
+    background-color: #F0FBFF;
+}
+.Inspiration{
+    
+height: 94px;
+    background-color: rgb(226 232 240);
+    font-size: 24px;
+font-family: Lexend Deca;
+font-weight: 700;
+letter-spacing: 0.176px;
+text-transform: capitalize;
+
+}
+.Inspiration a{
+    color: #002B5B;
+}
+.heading-item{
+    width: 295.2px;
+
+
+gap: 10px;
+}
+.contact-heading{
+    color: #002B5B;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 35.257px;
+font-family: Lexend Deca;
+font-weight: 700;
+}
+.underline{
+    border-bottom: 5px solid #002B5B;
+    width: 32%;
+}
+.box-form{
+    width: 21px;
+height: 21px;
+flex-shrink: 0;
+border-radius: 2px;
+border: 1.8px solid #002B5B;
+
+}
+.form-text{
+ display: flex;
+width: 415px;
+height: 19px;
+margin-left: 20px;
+margin-top: 20px;
+flex-direction: column;
+justify-content: center;
+
+color: #000;
+font-size: 16px;
+font-family: Lexend Deca;
+}
+.form-border{
+    border-radius: 9.028px;
+border: 1.806px solid #002B5B;
+}
+.border-botom{
+    
+height: 470px;
+
+border-bottom: 4px solid #B8B8B8;
+text-align: start !important; 
+}
+.store{
+    color: #000;
+font-size: 24px;
+font-family: Lexend Deca;
+letter-spacing: 1.2px;
+}
+.location{
+    color: #000;
+font-size: 50px;
+font-family: Lexend Deca;
+font-weight: 600;
+letter-spacing: -1.5px;
+}
+.send-btn{
+    display: flex;
+width: 100%;
+height: 70px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+align-items: center;
+color: #FFF;
+text-align: center;
+background-color: #002B5B;
+font-size: 24px;
+font-family: Lexend Deca;
+font-weight: 700;
+
+}
+.item-page{
+
+    display: flex;
+    width: 98px;
+    height: 50px;
+    justify-content: center;
+    
+    color: #000;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 600;
+       -webkit-text-fill-color: #000;
+}

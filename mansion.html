@@ -9,6 +9,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-(1).css">
+  <link rel="stylesheet" href="mansoon.css">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
@@ -19,6 +22,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <title>Outmaker</title>
+  <!-- Tailwind CSS CDN Links -->
+  <link href=
+  "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+            rel="stylesheet">
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
 </head>
 
 <body>
@@ -26,14 +36,14 @@
   <nav class="blue-bar">
     <div class="py-1 px-3 d-flex upper-nav" style=" background-color: #002B5B;">
       <div>
-        <span class="hello"><img src="pic/hello.svg" alt="">(704) 555-0127</span>
+        <span class="hello d-flex"><img src="pic/hello.svg" alt="">(704) 555-0127</span>
       </div>
       <div class="mx-auto">
-        <span class="deals">Black Friday Deals Here! 30-40% <img style="height: 18px; width: 20px;"
+        <span class="deals d-flex">Black Friday Deals Here! 30-40% <img style="height: 18px; width: 15px;"
             src="pic/icons8-right-arrow-30.png" alt=""></span>
       </div>
       <div>
-        <span class="order">Order tracking <span class="px-2">Help</span> <img src="pic/usa.svg" alt="">English <img
+        <span class="order d-flex gap-2">Order tracking <span class="px-2">Help</span> <img src="pic/usa.svg" alt="">English <img
             src="pic/chevrondown.svg" alt=""></span>
       </div>
     </div>
@@ -49,7 +59,7 @@
             <a class="nav-link active font" aria-current="page" href="index.html">Home </a>
           </li>
           <li class="nav-item  dropdowns">
-            <a id="myBtn" class="nav-link font down" href="#">Collection <img src="pic/icons8-drop-down-24.png"
+            <a id="myBtn" class="d-flex nav-link font down" href="#">Collection <img src="pic/icons8-drop-down-24.png"
                 alt=""></a>
               <div id="myModal" class="myModal">
                 <div>
@@ -128,7 +138,7 @@
               </div>
           </li>
           <li class="nav-item product dropdowns">
-            <a class="nav-link font" href="#">Products <img src="pic/icons8-drop-down-24.png" alt=""></a>
+            <a class="d-flex nav-link font" href="#">Products <img src="pic/icons8-drop-down-24.png" alt=""></a>
             <div id="myModal" class="myModal">
               <div>
                 <a href="#"><p class="prdct-heading">Outmaker Product</p></a>
@@ -246,7 +256,7 @@
             </div>
           </li>
           <li class="nav-item learn dropdowns">
-            <a class="nav-link font" href="#" tabindex="-1" aria-disabled="true">Learn<img
+            <a class="d-flex nav-link font" href="#" tabindex="-1" aria-disabled="true">Learn<img
                 src="pic/icons8-drop-down-24.png" alt=""></a>
             <div id="myModal" class=" myModal">
             
@@ -631,62 +641,244 @@
       </div>
   </div>
 
-  <section class="background-img">
-    <div>
-      <h1>BETTER LIFE OUTDOOR</h1>
-      <p>Hot staff, fun staff, new staff soon to be your staff</p>
-      <button class="btn">Shop Now<span class="font"><img src="pic/icons8-arrow-25.png" alt=""></span></button>
+
+ 
+  <section>
+    
+      <div class="mx-auto">
+        <img src="images/bg.png" />
+      </div>
+    
+  </section>
+
+  <div class="d-flex item-page gap-3 m-5 media font-bold">
+    <a href=""><p class="text-sm ">Home</p></a>
+     <a href=""><p class="text-sm">Blog</p></a>
+    
+  </div>
+
+  <section class="m-5">
+    <div class="d-flex justify-content-center align-items-center p-5 Inspiration media">
+      <div class="heading-item"> <a class="text-decoration-none" href="">All</a> </div>
+      <div class="heading-item"> <a class="text-decoration-none" href="">Design Tips</a> </div>
+      <div class="heading-item"> <a class="text-decoration-none" href="">How To</a> </div>
+      <div class="heading-item"> <a class="text-decoration-none" href=""> Room Inspiration</a> </div>
+      <div class="heading-item"> <a class="text-decoration-none" href="">Outmaker</a> </div>
     </div>
   </section>
 
-  <section class="box">
-    <div class="d-flex justify-content-between box-2">
-      <div>
-        <h1 class="title">Our Popular Collection</h1>
-      </div>
-      <div class="view p-3">
-        <span>View All<img style="width: 23px; height: 20px; padding: 5px;" src="pic/right_blue.png" alt=""></span>
-      </div>
-    </div>
-    <div class="d-flex align-items-center justify-content-center mt-4 media gap-4">
-      <div class="box-3 d-flex">
-        <div class="left-align">
-          <img
-            style="position: absolute; height: 60px; width: 200px; position: absolute; transform: matrix(0.82, -0.57, -0.57, -0.82, 0, 0);"
-            src="pic/curve3.png" alt="">
-          <h6 class="title-2">Chaise Lounge</h6>
-          <p class="line">We are small family business in Europe who love to make exceptional printed products!</p>
-          <button class="btn">Shop Now <span><img width="15px" height="15px" src="pic/icons8-right-arrow-30.png"
-                alt=""></span></button>
-        </div>
-        <div class="d-flex justify-content-center align-items-center">
-          <div>
-            <div class="circle-1">
-              <img class="img" src="pic/pngwing-1.com.png" alt="">
-            </div>
-            <div></div>
+  <section class="m-3 mx-auto " style="width: 93%;">
+    <div class="d-flex gap-2 media">
+      <div class="">
+        <img width="805px" height="482.716px" src="images/rectangle-6183@2x.png" alt="" />
+        <div class="p-5 md:p-10">
+          <h1 class="text-xl md:text-4xl font-semibold">
+            How to Furnish Your Small Outdoor Space
+          </h1>
+          <p class="py-8 md:py-14 text-sm md:text-base">
+            En an unknown printer took a galley of type and scrambled it to
+            make a type specimen book. It has survived not only five
+            centuries, but also the leap into electronic typesetting
+          </p>
+          <div class="flex items-center text-sm md:text-base">
+            <img class="w-7 md:w-9" src="images/ellipse-49@2x.png" alt="" />
+            <p class="ps-5 pe-10">Ben Holland</p>
+            <p>8/25/2022</p>
           </div>
         </div>
       </div>
-      <div class="box-4 d-flex">
-        <div class="left-align">
-          <h6 class="title-2">Harriet Ottoman </h6>
-
-          <p class="line">We are small family business in Europe who love to make exceptional printed products!</p>
-          <button class="btn">Shop Now <span><span><img width="15px" height="15px" src="pic/icons8-right-arrow-30.png"
-                  alt=""> </span> </span></button>
-          <img style="position: absolute; transform: rotate(-25.98deg); height: 50px;
-                width: 250px;
-                                
-                " src="pic/icons8-squiggly-line-80.png" alt="">
+      <div class="">
+        <div>
+          <h1 class="md:text-3xl font-bold color">Featured Articles</h1>
+          <div
+            class="border-b-4 border-color md:pt-1 border-color mb-5"
+          ></div>
+          <div class=" grid md:grid-cols-2 md:pt-5">
+            <div class="order-1 md:order-none">
+              <p class="md:text-2xl font-bold md:py-0">
+                How to Furnish Your Small Outdoor Space for your Garden
+              </p>
+              <div class=" items-center text-sm md:text-base md:pt-20">
+                <img
+                  class="w-7 md:w-9"
+                  src="images/ellipse-49@2x.png"
+                  alt=""
+                />
+                <p class="ps-5 pe-2">Ben Holland</p>
+                <p>|</p>
+                <p class="ps-2">8/25/2022</p>
+              </div>
+            </div>
+            <div class="order-2 md:order-none">
+              <img
+                class="md:ps-12"
+                src="images/rectangle-6185@2x.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
-          <div>
-            <div class="circle-2">
-              <img class="img" src="pic/pngwing-2.com.png" alt="">
+        <div class="border-b-4 border-color my-5 md:my-5 md:pt-5"></div>
+        <div class="grid md:grid-cols-2 md:pt-5">
+          <div class="order-2 md:order-none">
+            <p class="md:text-2xl py-5 md:py-0">
+              Enchanting 200-Year-Old Walled Garden in Pennsylvania
+            </p>
+            <div class="flex items-center text-sm md:text-base md:pt-20">
+              <img class="w-7 md:w-9" src="images/ellipse-49@2x.png" alt="" />
+              <p class="ps-5 pe-2">mary Cury</p>
+              <p>|</p>
+              <p class="ps-2">11/10/2020</p>
+            </div>
+          </div>
+          <div class="order-1 md:order-none">
+            <img
+              class="md:ps-12"
+              src="images/rectangle-61851@2x.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="border-b-4 border-color my-5 md:my-5 md:pt-5"></div>
+        <div class="grid md:grid-cols-2 md:pt-5">
+          <div class="order-2 md:order-none">
+            <p class="md:text-2xl py-5 md:py-0">
+              SEE THIS HOUSE: Architect’s New Orleans Home in the Garden
+              District
+            </p>
+            <div class="flex items-center text-sm md:text-base md:pt-20">
+              <img class="w-7 md:w-9" src="images/ellipse-49@2x.png" alt="" />
+              <p class="ps-5 pe-2">Emily</p>
+              <p>|</p>
+              <p class="ps-2">11/10/2023</p>
+            </div>
+          </div>
+          <div class="order-1 md:order-none">
+            <img
+              class="md:ps-12"
+              src="images/rectangle-61852@2x.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="md:my-20">
+    <div class="px-2 md:px-10">
+      <h1 class="md:text-3xl font-bold">Latest Articles</h1>
+      <div class="border-b-4 border-color md:pt-1 border-color mb-5"></div>
+      <div class="grid md:grid-cols-2 md:gap-x-2 md:mt-5">
+        <div class="pb-8 md:pb-8">
+          <div class="grid grid-cols-2 gap-x-2 mb-8">
+            <div class="flex justify-center">
+              <img
+                class="md:w-3/4"
+                src="images/rectangle-61853@2x.png"
+                alt=""
+              />
             </div>
             <div>
+              <h2 class="md:text-2xl font-bold">
+                Inside Studio McGee’s First-Ever Spec Home
+              </h2>
+              <div
+                class="flex items-center text-sm md:text-xl pt-12 md:pt-16"
+              >
+                <img
+                  class="w-7 md:w-12"
+                  src="images/ellipse-49@2x.png"
+                  alt=""
+                />
+                <p class="ps-5 pe-2">Emily</p>
 
+                <p class="md:ps-24">11/10/2023</p>
+              </div>
+              <div class="border-b-4 pt-3 md:pt-4"></div>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-x-2">
+            <div class="flex justify-center">
+              <img
+                class="md:w-3/4"
+                src="images/rectangle-61853@2x.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <h2 class="md:text-2xl font-bold">
+                Inside Studio McGee’s First-Ever Spec Home
+              </h2>
+              <div
+                class="flex items-center text-sm md:text-xl pt-12 md:pt-16"
+              >
+                <img
+                  class="w-7 md:w-12"
+                  src="images/ellipse-49@2x.png"
+                  alt=""
+                />
+                <p class="ps-5 pe-2">Emily</p>
+
+                <p class="md:ps-24">11/10/2023</p>
+              </div>
+              <div class="border-b-4 pt-3 md:pt-4"></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="grid grid-cols-2 gap-x-2 mb-8">
+            <div class="flex justify-center">
+              <img
+                class="md:w-3/4"
+                src="images/rectangle-61853@2x.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <h2 class="md:text-2xl font-bold">
+                Inside Studio McGee’s First-Ever Spec Home
+              </h2>
+              <div
+                class="flex items-center text-sm md:text-xl pt-12 md:pt-16"
+              >
+                <img
+                  class="w-7 md:w-12"
+                  src="images/ellipse-49@2x.png"
+                  alt=""
+                />
+                <p class="ps-5 pe-2">Emily</p>
+
+                <p class="md:ps-24">11/10/2023</p>
+              </div>
+              <div class="border-b-4 pt-3 md:pt-4"></div>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-x-2">
+            <div class="flex justify-center">
+              <img
+                class="md:w-3/4"
+                src="images/rectangle-61853@2x.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <h2 class="md:text-2xl font-bold">
+                Inside Studio McGee’s First-Ever Spec Home
+              </h2>
+              <div
+                class="flex items-center text-sm md:text-xl pt-12 md:pt-16"
+              >
+                <img
+                  class="w-7 md:w-12"
+                  src="images/ellipse-49@2x.png"
+                  alt=""
+                />
+                <p class="ps-5 pe-2">Emily</p>
+
+                <p class="md:ps-24">11/10/2023</p>
+              </div>
+              <div class="border-b-4 pt-3 md:pt-4"></div>
             </div>
           </div>
         </div>
@@ -694,214 +886,137 @@
     </div>
   </section>
 
-  <div class="text-center py-5">
-    <p
-      style="font-family: 'Garamond Premier Pro'; font-style: normal; top: calc(50% - 35px/2 - 1282.5px); font-weight: 600;font-size: 55px; line-height: 66px; color: #002B5B;">
-      Pick Something Stylish</p>
-    <p
-      style="top: 29.38%; bottom: 70.4%; font-family: 'Poppins'; font-style: normal; font-weight: 400; font-size: 18px; line-height: 30px;color: #666666;">
-      A whole range of matching sets to fit any style or outdoor space.</p>
-  </div>
-
-  <div class="w-100 justify-content-center align-items-center gap-4 media d-flex ">
-    <div class="">
-      <div class="">
-        <img style="width: 350px; height: 300px; border-radius: 6px;" src="pic/rectangle-6141@2x.png" alt="">
-        <p class="heading"> Harriet Side table</p>
-        <p class="description">HipVan is proud to be founded in Singapore. Like you, we're young adults who care about
-          creating an inspiring home we call our own.</p>
-        <div class=""></div>
-      </div>
-    </div>
-    <div class="">
-      <div class="">
-        <img style="width: 350px; height: 300px; border-radius: 6px;" src="pic/rectangle-6142@2x.png" alt="">
-        <p class="heading"> Harriet Side table</p>
-        <p class="description">HipVan is proud to be founded in Singapore. Like you, we're young adults who care about
-          creating an inspiring home we call our own.</p>
-        <div class=""></div>
-      </div>
-    </div>
-    <div>
-      <div>
-        <img style="width: 350px; height: 300px; border-radius: 6px;" src="pic/rectangle-6143@2x.png" alt="">
-        <p class="heading"> Harriet Side table</p>
-        <p class="description">HipVan is proud to be founded in Singapore. Like you, we're young adults who care about
-          creating an inspiring home we call our own.</p>
-        <div class=""></div>
-      </div>
-    </div>
-  </div>
-
-  <section class="box">
-    <div class="d-flex justify-content-center align-items-center wrapper">
-      <div class="circle-3"></div>
-      <div class="circle-4"></div>
-      <div class="circle-3"></div>
-      <div class="circle-5"></div>
-      <div class="d-flex align-items-center">
-        <div class="circle-6 d-flex justify-content-center align-items-center">
-          <img width="25px" height="30px" src="pic/icons8-arrow-pointing-left-30.png" alt="">
+  <section>
+    <div class="px-2 md:px-10 mt-10 md:mt-0 mb-10">
+      <h1 class="md:text-3xl font-bold">Style and Design Ideas</h1>
+      <div class="border-b-4 border-color md:pt-1 border-color mb-5"></div>
+      <div class="grid justify-items-center md:grid-cols-3 gap-x-3">
+        <div>
+          <img src="images/rectangle-61856@2x.png" alt="">
+          <h1 class="text-xl md:text-3xl font-bold py-3 md:py-5">O U T D O O R</h1>
+          <p class="text-sm md:text-xl pb-5 md:pb-8">Inside the Catalogue | Marigold Color Story Inside the Catalogue</p>
+          <div class="border-b-4 mb-5 md:mb-0"></div>
         </div>
-        <div class="circle-7 d-flex justify-content-center align-items-center">
-          <img width="25px" height="30px" src="pic/icons8-right-arrow-30.png" alt="">
+        <div>
+          <img src="images/rectangle-61856@2x.png" alt="">
+          <h1 class="text-xl md:text-3xl font-bold py-3 md:py-5">O U T D O O R</h1>
+          <p class="text-sm md:text-xl pb-5 md:pb-8">Inside the Catalogue | Marigold Color Story Inside the Catalogue</p>
+          <div class="border-b-4 mb-5 md:mb-0"></div>
+        </div>
+        <div>
+          <img src="images/rectangle-61856@2x.png" alt="">
+          <h1 class="text-xl md:text-3xl font-bold py-3 md:py-5">O U T D O O R</h1>
+          <p class="text-sm md:text-xl pb-5 md:pb-8">Inside the Catalogue | Marigold Color Story Inside the Catalogue</p>
+          <div class="border-b-4 mb-5 md:mb-0"></div>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="d-flex justify-content-center align-items-center w-100 Envoirment">
-    <div class="align-items-center justify-content-center nature-text">
-      <p
-        style="font-family: 'Garamond Premier Pro'; font-style: normal; font-weight: 600; font-size: 35px; line-height: 60px; color: #002B5B;">
-        Our Product Protect Our Envoirment</p>
-      <p>HipVan is proud to be founded in Singapore. Like you, we're young adults who care about creating an inspiring
-        home we call our own. The problem of limited furnishing options, high retail mark-ups.</p>
-      <button class="efforts" type="button"><span
-          style="font-family: 'Poppins'; font-style: normal; font-weight: 400; color: rgb(255, 255, 255); font-size: 15px;">Our
-          Sustainability Efforts</span> <img src="pic/arrow-11.svg" alt=""></button>
-    </div>
-    <div class="nature ">
-      <img style="height: 462px;" src="pic/pic.png" alt="">
-    </div>
-  </div>
 
-  <section class="materials mt-5  media">
-    <div class="text-center ">
-      <p
-        style="font-family: 'Garamond Premier Pro'; font-style: normal; font-weight: 600; font-size: 50px;text-transform: capitalize; padding-top:40px; color: #002B5B;">
-        materials we use</p>
-      <p
-        style="font-family: 'Poppins'; font-style: normal; font-weight: 400; font-size: 15px; line-height: 30px;color: #666666;">
-        Our mission is to provide high quality, durable, comfortable and designed outdoor <br> furniture to add
-        happiness and joy to your outdoor life. </p>
-    </div>
-    <div class="d-flex align-items-center justify-content-center nature">
-      <img style=" border-radius: 20px; width: 80%;" src="pic/video.svg" alt="">
-    </div>
-  </section>
-
-  <div class="w-100 justify-content-center align-items-center gap-4 mt-4 d-flex media">
-    <div class="card p-3 align-items-center justify-content-center">
+  <section>
+    <div class="px-5 md:px-10 my-20">
       <div class="">
-        <img style="align-items: center;justify-content: center;width: 250px; height: 250px;" src="pic/p1.png" alt="">
-        <p class="heading">Wood</p>
-        <p class="content">HipVan is proud to be founded in Like you, we're young adults who.</p>
-        <div class=""></div>
+        <iframe class="video w-full" src="https://www.youtube.com/embed/9RxIuX0WoXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-    </div>
-    <div class="card p-3 align-items-center justify-content-center">
-      <div class=" ">
-        <img style="width: 250px; height: 250px;" src="pic/p2.png" alt="">
-        <p class="heading">Febrics</p>
-        <p class="content">HipVan is proud to be founded in Like you, we're young adults who.</p>
-        <div class=""></div>
-      </div>
-    </div>
-    <div class="card p-3 align-items-center justify-content-center">
-      <div class="">
-        <img style="width: 250px; height: 250px;" src="pic/p2.png" alt="">
-        <p class="heading">Febrics</p>
-        <p class="content">HipVan is proud to be founded in Like you, we're young adults who.</p>
-        <div class=""></div>
-      </div>
-    </div>
-    <div class="card p-3 align-items-center justify-content-center">
-      <div class="">
-        <img style="width: 250px; height: 250px;" src="pic/p3.png" alt="">
-        <p class="heading">Metal</p>
-        <p class="content">HipVan is proud to be founded in Like you, we're young adults who.</p>
-        <div class=""></div>
-      </div>
-    </div>
-  </div>
-
-  <section class="box-5 m-5">
-    <div class="d-flex justify-content-between align-items-center box-6">
-      <div>
-        <h1 class="title">Our Customers Reviews</h1>
-      </div>
-      <div class="d-flex justify-content-between align-items-center">
-        <div class="circle-8 d-flex justify-content-center align-items-center">
-          <img src="pic/icons8-arrow-pointing-left-30.png" alt="">
+      <div class="grid md:grid-cols-2">
+        <div>
+          <p class="text-xl py-5">We’re on Youtube</p>
+          <h1 class=" text-3xl md:text-6xl font-bold">Watch Dream Home Makeover</h1>
         </div>
-        <div class="circle-9 d-flex justify-content-center align-items-center">
-          <img src="pic/icons8-right-arrow-30.png" alt="">
-        </div>
-      </div>
-    </div>
-    <div class="row gap-4">
-      <div class="col border-box px-4 shadow-lg curve">
-        <div class="d-flex justify-content-between line-gap pt-4 align-items-center justify-content-center">
-          <div>
-            <img src="pic/star.svg" alt="">
-          </div>
-          <p class="text-color">10 July 2023</p>
-        </div>
-        <p class="text-color">It is a long established fact that a reader will be distracted by the readable content of
-          a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-          distribution of letters, as opposed to using 'Content</p>
-        <div class="d-flex box-7">
-          <div>
-            <img class="img-size" src="pic/ellipse-231@2x.png" alt="">
-          </div>
-          <div>
-            <h6>Hosen rahman</h6>
-            <h6 class="text-color">CEO XYZ</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col border-box px-4 box-margin shadow-sm curve">
-        <div class="d-flex justify-content-between line-gap pt-4 align-items-center justify-content-center">
-          <div>
-            <img src="pic/star.svg" alt="">
-          </div>
-          <p class="text-color">10 July 2023</p>
-        </div>
-        <p class="text-color">It is a long established fact that a reader will be distracted by the readable content of
-          a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-          distribution of letters, as opposed to using 'Content</p>
-        <div class="d-flex box-7">
-          <div>
-            <img class="img-size" src="pic/ellipse-232@2x.png" alt="">
-          </div>
-          <div>
-            <h6>Hosen rahman</h6>
-            <h6 class="text-color">CEO XYZ</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col border-box px-4 shadow-sm curve">
-        <div class="d-flex justify-content-between line-gap pt-4 align-items-center justify-content-center">
-          <div>
-            <img src="pic/star.svg" alt="">
-          </div>
-          <p class="text-color">10 July 2023</p>
-        </div>
-        <p class="text-color">It is a long established fact that a reader will be distracted by the readable content of
-          a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-          distribution of letters, as opposed to using 'Content</p>
-        <div class="d-flex box-7">
-          <div>
-            <img class="img-size" src="pic/ellipse-23@2x.png" alt="">
-          </div>
-          <div>
-            <h6>Hosen rahman</h6>
-            <h6 class="text-color">CEO XYZ</h6>
-          </div>
+        <div class="pt-5 text-lg md:text-2xl">
+          Join us for an in-depth look inside some of our favorite design projects, across four seasons, and our family life in Utah, as we work to make life beautiful for ourselves and our clients. See more   <i class="fa-solid fa-arrow-right-long md:ps-5"></i>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="logo-end px-4 ">
-    <img src="pic/logo_end.svg" alt="">
+
+  <section>
+    <div class="px-2 md:px-10 mt-10 md:mt-0 mb-10">
+      <h1 class="md:text-3xl font-bold">Style and Design Ideas</h1>
+      <div class="border-b-4 border-color md:pt-1 border-color mb-5"></div>
+      <div class="grid justify-items-center md:grid-cols-3 gap-x-3">
+        <div>
+          <img src="images/rectangle-61856@2x.png" alt="">
+          <h1 class="text-xl md:text-3xl font-bold py-3 md:py-5">O U T D O O R</h1>
+          <p class="text-sm md:text-xl pb-5 md:pb-8">Inside the Catalogue | Marigold Color Story Inside the Catalogue</p>
+          <div class="border-b-4 mb-5 md:mb-0"></div>
+        </div>
+        <div>
+          <img src="images/rectangle-61856@2x.png" alt="">
+          <h1 class="text-xl md:text-3xl font-bold py-3 md:py-5">O U T D O O R</h1>
+          <p class="text-sm md:text-xl pb-5 md:pb-8">Inside the Catalogue | Marigold Color Story Inside the Catalogue</p>
+          <div class="border-b-4 mb-5 md:mb-0"></div>
+        </div>
+        <div>
+          <img src="images/rectangle-61856@2x.png" alt="">
+          <h1 class="text-xl md:text-3xl font-bold py-3 md:py-5">O U T D O O R</h1>
+          <p class="text-sm md:text-xl pb-5 md:pb-8">Inside the Catalogue | Marigold Color Story Inside the Catalogue</p>
+          <div class="border-b-4 mb-5 md:mb-0"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<div class="m-5 mx-auto">
+  <div class="instagramnetwork11 mx-auto">
+    <b class="outmaker-instagram-network5">Other Collections</b>
+    <div class="instagramnetwork-child3"></div>
   </div>
+  
+  
+</div>
+
+<section class="mx-auto" style="width: 90%; background-color:white;">
+  <div class="gap-3 d-flex align-items justify-content-center lape ">
+    <div class="d-flex align-items-center justify-content-center">
+     <a href=""><img src="images/arrow-left.svg" alt=""></a> 
+    </div>
+    <div >
+      <img src="images/img-1.png" alt="">
+    </div>
+    <div >
+      <img src="images/img-2.png" alt="">
+    </div>
+    <div class="d-flex align-items-center justify-content-center">
+     <a href=""><img src="images/arrow-right.svg" alt=""></a> 
+    </div>
+  </div>
+
+</section>
+
+<!-- start -->
+
+<div class="m-5 mx-auto">
+  <div class="instagramnetwork11 mx-auto">
+    <b class="outmaker-instagram-network5">Outmaker Instagram Network</b>
+    <div class="instagramnetwork-child3"></div>
+  </div>
+  
+  
+</div>
+<!-- end -->
+
+<!-- instagram pictures -->
+<section class="mx-auto" style="width: 92%;">
+
+  <div class="insta-img d-flex align-items-center justify-content-center gap-2 media">
+    <div class="insta-photo" ><iframe width="100%" height="260px" src="https://www.youtube.com/embed/mjiCTmW75X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="insta-photo"><img  width="100%" height="300px" src="images/2.png" alt="" /></div>
+    <div class="insta-photo"><img width="100%" height="300px"  src="images/4.png" alt="" /></div>
+    <div class="insta-photo"><img width="100%" height="300px"  src="images/5.png" alt="" /></div>
+    <div class="insta-photo"><img  width="100%" height="300px" src="images/6.png" alt="" /></div>
+  </div>
+</section>  
 
   <section class="end media">
     <div class="group align-items-center justify-content-center gap-4 d-flex media">
       <div class="squar">
-        <img class="" alt="" src="pic/g1.svg">
+        <img class="mx-auto" alt="" src="pic/g1.svg">
         <div class="support-parent">
           <p class="support">24/7 Support</p>
           <p class="brief">Friendly 24/7 support</p>
@@ -909,7 +1024,7 @@
       </div>
       <div class="line-div me-5"></div>
       <div class="squar">
-        <img class="" alt="" src="pic/g1.svg">
+        <img class="mx-auto" alt="" src="pic/g1.svg">
         <div class="support-parent">
           <p class="support">Money Guarantee</p>
           <p class="brief">30 days money back</p>
@@ -917,7 +1032,7 @@
       </div>
       <div class="line-div me-5"></div>
       <div class="squar">
-        <img class="" alt="" src="pic/g2.svg">
+        <img class="mx-auto" alt="" src="pic/g2.svg">
         <div class="support-parent">
           <p class="support">Free Returns</p>
           <p class="brief">No questions asked return policy</p>
@@ -925,7 +1040,7 @@
       </div>
       <div class="line-div me-5"></div>
       <div class="squar">
-        <img class="" alt="" src="pic/g3.svg">
+        <img class="mx-auto" alt="" src="pic/g3.svg">
         <div class="support-parent">
           <p class="support">Secure Payment</p>
           <p class="brief">All cards accepted</p>
