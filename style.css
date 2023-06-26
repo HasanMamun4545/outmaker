@@ -807,7 +807,7 @@ text-emphasis-color: #ffffff;
 
 .radio-btn3 {
 
-  align-items: flex-start;
+  text-align: center;
   padding: 26px 32px;
   gap: 10px;
 
@@ -1272,7 +1272,24 @@ display: block;
     font-size: 18px;
   }
 
-
+.pngwing-25-parent{
+  width: 300px;
+  height: auto;
+}
+.pngwing-25-parent img{
+  width: 250px;
+  height: auto;
+}
+.group-child81{
+  display: none;
+}
+.group-child82{
+  display: none;
+}
+.lrg-section{
+  width: 300px;
+  height: auto;
+}
 
 }
 
@@ -1644,9 +1661,6 @@ font-style: normal;
 font-weight: 300;
 font-size: 20px;
 line-height: 30px;
-
-
-
 align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
@@ -1717,4 +1731,9 @@ font-family: Lexend Deca;
 font-weight: 500;
 letter-spacing: 1.2px;
 }
-
+.three-D{
+  color:  #002B5B;
+font-size: 20px;
+font-family: Poppins;
+line-height: 30px;
+}
